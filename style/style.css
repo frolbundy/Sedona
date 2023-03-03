@@ -45,7 +45,7 @@ img {
   width: 1230px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: solid red 1px;
+  /* outline: solid red 1px; */
 }
 
 .visually-hidden {
