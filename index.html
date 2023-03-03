@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Седона</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container container-header">
+            <nav class="header-navigation">
+                <ul class="item nav-item">
+                    <li class="list nav-list">
+                        <a href="" class="link nav-link">Главная</a></li>
+                    <li class="list nav-list">
+                        <a href="" class="link nav-link">Фото и видео</a></li>
+                    <li class="list nav-list">
+                        <a href="" class="link nav-link">Форма и отзывы</a></li>
+                    <li class="list nav-list">
+                        <a href="" class="link nav-link">Html academy</a></li>
+                </ul>
+
+                <a href="./index.html" class="logo">
+                    <svg class="logo-icon" width="186" height="96">
+                        <use href="./img/sprite.svg#icon-logotype-desktopsvg"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!--Section 1-->
+        <section class="main">
+                    <h1 class="visually-hidden">Седона</h1>
+            <div class="container container-main">
+                <svg class="main-icon icon" width="460" height="350">
+                    <use href="./img/sprite.svg#icon-sedona"></use>
+                </svg>
+
+                <!-- <svg class="decor-icon icon" width="1200" height="57">
+                    <use href="./img/sprite.svg#icon-intro-trianglesvg"></use>
+                </svg> -->
+            </div>
+
+        </section>
+        <!--Section 2-->
+        <section class="about">
+            <div class="container container-about">
+                <h2 class="visually-hidden">Причины</h2>
+                <div class="about-cause">
+                    <h3 class="about-title">СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающийй большего!</h2>
+                    <p class="about-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+                </div>
+                <div class="about-real-city">
+                        <div class="real-city-box">
+                            <h3 class="real-city-title">Настоящий городок</h3>
+                            <p class="real-city-cause">— №1 —</p>
+                            <p class="real-city-text">Седона не атракцион для туристов, там течет твоя жизнь</p>
+                </div>
+                    <img srcset="./img/photo-city@1x.jpg 1x, ./img/photo-city@2x.jpg 2x" 
+                    src="./img/photo-city@1x.jpg" 
+                    alt="house" 
+                    width="800" 
+                    height="256">
+                </div>
+                <div class="about-cause-wrapper">
+                    <ul class="item about-cause-item">
+                        <li class="list about-cause-list">
+                            <svg class="about-cause-icon icon" width="74" height="72">
+                                <use href="./img/sprite.svg#icon-icon-housesvg"></use>
+                            </svg>
+                            <h3 class="about-cause-title">Жилье</h3>
+                            <p class="about-cause-text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                        </li>
+                        <li class="list about-cause-list">
+                            <svg class="about-cause-icon icon" width="74" height="72">
+                                <use href="./img/sprite.svg#icon-icon-burgersvg"></use>
+                            </svg>
+                            <h3 class="about-cause-title">Еда</h3>
+                            <p class="about-cause-text">Всегда заказывайте фирменный бургер, вы не розачаруетесь!</p>
+                        </li>
+                        <li class="list about-cause-list">
+                            <svg class="about-cause-icon icon" width="74" height="72">
+                                <use href="./img/sprite.svg#icon-icon-giftsvg"></use>
+                            </svg>
+                            <h3 class="about-cause-title">Сувениры</h3>
+                            <p class="about-cause-text">Не только китайского но и местного производства!</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="about-real-bridge">
+                    <img srcset="./img/photo-bridge@1x.jpg 1x, ./img/photo-bridge@1x.jpg 2x" src="./img/photo-bridge@1x.jpg" alt="house"
+                        width="800" height="256">
+                    <div class="real-bridge-box">
+                        <h3 class="real-bridge-title">Там есть мост дьявола</h3>
+                        <p class="real-bridge-cause">— №2 —</p>
+                        <p class="real-bridge-text">Да, но по нему можно пройти!Если вы осмелитесь конечно.</p>
+                    </div>
+                </div>
+
+                <div class="about-bridge-wrapper">
+                    <ul class="item wrapper-item">
+                        <li class="list wrapper-list">
+                            <h3 class="wrapper-cause-title">Небольшая площадь</h3>
+                            <p class="wrapper-txt-cause">— №3 —</p>
+                            <p class="wrapper-cause-text">Все интересные места находятся очень близко.</p>
+                        </li>
+                        <li class="list wrapper-list">
+                            <h3 class="wrapper-cause-title">Красивая дорога</h3>
+                            <p class="wrapper-txt-cause">— №4 —</p>
+                            <p class="wrapper-cause-text">Ехать из Лас-Вегаса в Седону не скучно!</p>
+                        </li>
+                        <li class="list wrapper-list">
+                            <h3 class="wrapper-cause-title">Мало туристов</h3>
+                            <p class="wrapper-txt-cause">— №5 —</p>
+                            <p class="wrapper-cause-text">Большинство едет в гранд каньон и толпится там.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

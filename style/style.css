@@ -1,0 +1,277 @@
+.icon {
+  fill: blanchedalmond;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+}
+
+.container {
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: solid red 1px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*==============ХЕДЕР======*/
+
+.header {
+  padding: 16px 0 14px;
+}
+
+.item.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 43%;
+}
+
+/*==============Секція-1========*/
+
+.main {
+  padding: 78px 0 90px;
+  max-width: 1230px;
+  margin: 0 auto;
+  background-image: url(../img/desktopbg-1x.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-main {
+  padding: 0 370px;
+}
+
+/*==============Секція-2========*/
+
+.about {
+  padding: 55px 0 60px;
+}
+
+.about-cause {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  font-size: 21px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+
+  margin-bottom: 50px;
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.8;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+
+  margin-bottom: 40px;
+}
+
+.about-real-city {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.real-city-box {
+  background-color: #81b3d2;
+  padding: 47px 52px 56px;
+}
+
+.real-city-title {
+  font-size: 21px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.real-city-cause {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 34px;
+}
+
+.real-city-text {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about-cause-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-cause-list {
+  width: 268px;
+}
+
+.about-cause-icon {
+  margin-bottom: 26px;
+  width: 100%;
+  display: block;
+
+  fill: #81b3d2;
+}
+
+.about-cause-title {
+  font-size: 21px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.about-cause-text {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 87px;
+}
+
+.cause-wrapper {
+  background-color: #eeeeee;
+}
+
+.about-real-bridge {
+  display: flex;
+}
+
+.real-bridge-box {
+  background-color: #81b3d2;
+  padding: 79px 52px;
+  width: 400px;
+  height: 256px;
+}
+
+.real-bridge-title {
+  font-size: 21px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.real-bridge-cause {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+  color: #ffffff;
+}
+
+.real-bridge-text {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about-bridge-wrapper {
+  background-color: #eeeeee;
+  padding: 42px 0 62px;
+}
+
+.wrapper-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.wrapper-list {
+  width: 268px;
+}
+
+.wrapper-cause-title {
+  font-size: 21px;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.wrapper-txt-cause {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+  margin-bottom: 34px;
+}
+
+.wrapper-cause-text {
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
